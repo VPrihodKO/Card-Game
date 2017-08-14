@@ -1,10 +1,10 @@
-import { AngularTourOfHeroesPage } from './app.po';
+import {CardGamePage } from './app.po';
 
-describe('angular-tour-of-heroes App', () => {
-  let page: AngularTourOfHeroesPage;
+describe('card-game App', () => {
+  let page: CardGamePage;
 
   beforeEach(() => {
-    page = new AngularTourOfHeroesPage();
+    page = new CardGamePage();
   });
 
   it('should display welcome message', () => {

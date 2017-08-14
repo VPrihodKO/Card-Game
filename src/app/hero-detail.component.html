@@ -1,0 +1,34 @@
+<div *ngIf="hero">
+  <h2>{{hero.name}} details!</h2>
+  <div class="detail">
+    <div> <label>id: </label>{{hero.id}}</div>
+    <label>name: </label>
+    <input [(ngModel)]="hero.name" placeholder="name" /><br>
+    <label>description: </label>
+    <input [(ngModel)]="hero.description" placeholder="description" /><br>
+    <label>attack: </label>
+    <input [(ngModel)]="hero.attack" placeholder="attack" /><br>
+    <label>life: </label>
+    <input [(ngModel)]="hero.life" placeholder="life" /><br>
+
+  <button (click)="goBack()">Back</button>
+  <button (click)="save()">Save</button>
+</div>
+<div class="right">
+  <div class="view">
+    <div class="som-pic">
+    </div>
+    <div class="name">
+      <span>{{hero.name}}</span>
+    </div>
+    <div class="description">
+      <p>{{hero.description}}</p>
+    </div>
+    <div class="attack">
+      <span class="prop">{{hero.attack}}</span>
+    </div>
+    <div class="life">
+      <div class="prop">{{hero.life}}</div>
+    </div>
+  </div>
+</div>

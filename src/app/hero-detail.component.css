@@ -1,0 +1,99 @@
+
+label {
+  display: inline-block;
+  width: 3em;
+  margin: .5em 0;
+  color: #607D8B;
+  font-weight: bold;
+}
+input {
+  height: 2em;
+  font-size: 1em;
+  padding-left: .4em;
+  margin-left: 4em;
+}
+button {
+  margin-top: 20px;
+  font-family: Arial;
+  background-color: #eee;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 4px;
+  cursor: pointer; cursor: hand;
+}
+button:hover {
+  background-color: #cfd8dc;
+}
+button:disabled {
+  background-color: #eee;
+  color: #ccc; 
+  cursor: auto;
+}
+
+
+.right {
+  float: left;
+}
+
+.view {
+  border: groove 5px khaki;
+  width: 200px;
+  height: 300px;
+  margin-left: 100px;
+  position: relative;
+}
+
+.detail {
+  float: left;
+}
+
+.som-pic {
+  border: solid 2px khaki;
+  height: 150px;
+  width: 130px;
+  border-radius: 50%;
+  margin: 5px auto;
+
+}
+
+.name {
+  border: solid 2px #888888;
+  text-align: center;
+}
+
+.description {
+  text-align: center;
+}
+
+.attack {
+  border: solid 2px #888888;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  left: -30px;
+  top: 275px;
+  text-align: center;
+  color: #fff;
+  background: green;
+}
+
+.life {
+  border: solid 2px #888888;
+  border-radius: 0 100% 100% 100%;
+  transform: rotateZ(45deg);
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  left: 175px;
+  top: 275px;
+  text-align: center;
+  color: #fff;
+  background: red;
+}
+
+.prop {
+  line-height: 50px;
+  transform: rotateZ(-45deg);
+}
+
